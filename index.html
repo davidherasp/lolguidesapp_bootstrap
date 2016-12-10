@@ -1,42 +1,32 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>LoL Guides App</title>
-	<link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+	<title>LoL Guides</title>
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.js"></script>
-
-	<nav class=“navbar navbar-default”>
+	<nav class="navbar navbar-light bg-faded">
 		<div class="container">
-        <div class="navbar-header">
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" datatarget="#navigation-index" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-
-		<a class="navbar-brand" href="#">LoL Guides</a>
-		</div>
-		<div class="collapse navbar-collapse" id="navigation-index">
-			<ul class="nav navbar-nav navbar-right">
-				<li><i class="material-icons">account_circle</i>Usuario</li>
-				<li><i class="material-icons">highlight_off</i>Logout</li>
-			</ul>
-		</div>
+			<a class="navbar-brand" href="#">LoL Guides</a>
+			<div class="float-xs-right">
+				<ul class="nav navbar-nav">
+		          <li class="btn"><i class="material-icons">account_circle</i>Usuario</li>
+		          <li class="btn"><i class="material-icons">highlight_off</i>Logout</li>
+		        </ul>
+			</div>
 		</div>
 	</nav>
 
 	<div class="container">
-	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-lg-4 col1"> Guías </div>
-		<div class="col-xs-12 col-sm-6 col-lg-4 col2"> Ránking </div>
-		<div class="col-xs-12 col-sm-6 col-lg-4 col3"> Amigos </div>
-	</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-lg-4 col1"> Guías </div>
+			<div class="col-xs-12 col-sm-6 col-lg-4 col2"> Ránking </div>
+			<div class="col-xs-12 col-sm-6 col-lg-4 col3"> Amigos </div>
+		</div>
 	</div>
 </body>
 </html>
