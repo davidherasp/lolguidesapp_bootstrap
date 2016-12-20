@@ -15,44 +15,214 @@
 <body>
 	<nav class="navbar navbar-light bg-faded">
 		<div class="container">
-			<a class="navbar-brand" href="./index.html">LoL Guides</a>
+			<a class="navbar-brand" href="./main.html">LoL Guides</a>
 			<div class="float-xs-right">
 				<ul class="nav navbar-nav">
-          <li class="btn"><i class="material-icons">account_circle</i>Usuario</li>
-          <li class="btn"><i class="material-icons">highlight_off</i>Logout</li>
-        </ul>
+		          <li class="btn"><a href="./perfil.html"><i class="material-icons">account_circle</i>Usuario</a></li>
+		          <li class="btn"><a href="./index.html"><i class="material-icons">highlight_off</i>Logout</a></li>
+		        </ul>
 			</div>
 		</div>
 	</nav>
 
 	<div class="container">
+		<!-- Datos usuario -->
 		<div class="row">
+			<h1>Perfil de Usuario</h1>
 			<div class="col-xs-2">
-    		<img class="img-fluid rounded-circle" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/profileicon/588.png">
-      </div>
-      <div class="col-xs-8">
-        <p>Amigo 1</p>
-        Diamante V <img class="img-fluid" width="60px" height="60px" src="./images/base_icons/diamond.png">
-        <p>53 victorias - 55 derrotas</p>
-      </div>
+	          <img class="img-fluid rounded-circle" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/profileicon/987.png">
+	        </div>
+	        <div class="col-xs-10">
+	          <h5>Usuario</h5>
+	          <h5>Diamante V <small><img class="img-fluid" width="60px" height="60px" src="./images/base_icons/diamond.png"></small></h5>
+	          <h5>53 victorias - 55 derrotas</h5>
+	        </div>
 		</div>
 
+		<!-- Datos guías y amigos -->
 		<div class="row">
-			<div class="card">
-      	<div class="card-block">
-      		<div class="col-xs-2">
-          	<img class="img-fluid rounded-circle" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/Aatrox.png">
-	        </div>
-	        <div class="col-xs-8">
-	          <p>Amigo 2</p>
-	          Bronce III <img class="img-fluid" width="60px" height="60px" src="./images/base_icons/bronze.png">
-	          <p>3 victorias - 9 derrotas</p>
-	        </div>
-	        <div class="col-xs-2">
-	          <a href="#" class="btn btn-danger float-xs-right">Eliminar</a>
-	        </div>
-      	</div>
-    	</div>
+			<div class="col-xs-9">
+				<h3>Guías elaboradas</h3>
+				<div class="card alert-info">
+					<div class="card-block">
+						<!-- Imagen campeón -->
+						<div class="col-xs-2">
+							<img class="rounded" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/Aatrox.png">
+						</div>
+						<!-- Imagen summoner spells -->
+						<div class="col-xs-1">
+							<img class="rounded" style="width: 55px; margin-bottom: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerFlash.png">
+							<img class="rounded" style="width: 55px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerTeleport.png">
+						</div>
+						<!-- Info del campeón -->
+						<div class="col-xs-7">
+							<h5><small>Campeón</small> Aatrox</h5>
+							<h5><small>Línea</small> Top lane</h5>
+							<h5><small>Objetos</small></h5>
+							<nav class="">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1053.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2032.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2047.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3041.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3114.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3190.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3341.png">
+							</nav>
+						</div>
+						<div class="col-xs-2">
+							<a class="nav-link btn btn-info float-xs-right" href="./guia.html">Ver guía</a>
+						</div>
+					</div>
+				</div>
+				<div class="card alert-info">
+					<div class="card-block">
+						<!-- Imagen campeón -->
+						<div class="col-xs-2">
+							<img class="rounded" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/Aatrox.png">
+						</div>
+						<!-- Imagen summoner spells -->
+						<div class="col-xs-1">
+							<img class="rounded" style="width: 55px; margin-bottom: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerFlash.png">
+							<img class="rounded" style="width: 55px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerSmite.png">
+						</div>
+						<!-- Info del campeón -->
+						<div class="col-xs-7">
+							<h5><small>Campeón</small> Aatrox</h5>
+							<h5><small>Línea</small> Jungla</h5>
+							<h5><small>Objetos</small></h5>
+							<nav class="">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1053.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2032.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2047.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3041.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3114.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3190.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3341.png">
+							</nav>
+						</div>
+						<div class="col-xs-2">
+							<a class="nav-link btn btn-info float-xs-right" href="./guia.html">Ver guía</a>
+						</div>
+					</div>
+				</div>
+
+				<h3>Guías compartidas</h3>
+				<div class="card alert-success">
+					<div class="card-header">
+					    <ul class="nav nav-pills card-header-pills">
+					      <li class="nav-item">
+					        <a class="nav-link disabled" href="#">Usuario 1</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link disabled" href="#">Diamate V</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link disabled" href="#">55V 43D</a>
+					      </li>
+					      <li class="nav-item float-xs-right">
+					        <a class="nav-link btn btn-success" href="./perfil.html">Ver perfil</a>
+					      </li>
+					    </ul>
+					</div>
+					<div class="card-block">
+						<!-- Imagen campeón -->
+						<div class="col-xs-2">
+							<img class="rounded" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/Urgot.png">
+						</div>
+						<!-- Imagen summoner spells -->
+						<div class="col-xs-1">
+							<img class="rounded" style="width: 55px; margin-bottom: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerFlash.png">
+							<img class="rounded" style="width: 55px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerTeleport.png">
+						</div>
+						<!-- Info del campeón -->
+						<div class="col-xs-9">
+							<h5><small>Campeón</small> Urgot</h5>
+							<h5><small>Línea</small> Top lane</h5>
+							<h5><small>Objetos</small></h5>
+							<nav class="">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1053.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2032.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2047.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3041.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3114.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3190.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3341.png">
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="card alert-success">
+					<div class="card-header">
+					    <ul class="nav nav-pills card-header-pills">
+					      <li class="nav-item">
+					        <a class="nav-link disabled" href="#">Usuario 2</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link disabled" href="#">Challenger</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link disabled" href="#">1001V 983D</a>
+					      </li>
+					      <li class="nav-item float-xs-right">
+					        <a class="nav-link btn btn-success" href="./perfil.html">Ver perfil</a>
+					      </li>
+					    </ul>
+					</div>
+					<div class="card-block">
+						<!-- Imagen campeón -->
+						<div class="col-xs-2">
+							<img class="rounded" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/Yasuo.png">
+						</div>
+						<!-- Imagen summoner spells -->
+						<div class="col-xs-1">
+							<img class="rounded" style="width: 55px; margin-bottom: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerFlash.png">
+							<img class="rounded" style="width: 55px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/SummonerExhaust.png">
+						</div>
+						<!-- Info del campeón -->
+						<div class="col-xs-9">
+							<h5><small>Campeón</small> Yasuo</h5>
+							<h5><small>Línea</small> Mid lane</h5>
+							<h5><small>Objetos</small></h5>
+							<nav class="">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1053.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2032.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2047.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3041.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3114.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 1px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3190.png">
+								<img class="rounded d-inline-block align-top" style="width: 30px; margin-left: 10px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3341.png">
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Amigos -->
+			<div class="col-xs-3">
+				<h3> Amigos</h3>
+				<div class="card alert-warning">
+					<div class="card-block" style="padding: 10px;">
+						<div class="col-xs-3">
+							<img class="rounded" style="width: 50px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/profileicon/588.png">
+						</div>
+						<div class="col-xs-9">
+							<span class="float-xs-left">Amigo 1</span>
+							<a href="./perfil.html" class="float-xs-right">Perfil</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card alert-warning">
+					<div class="card-block" style="padding: 10px;">
+						<div class="col-xs-3">
+							<img class="rounded" style="width: 50px;" src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/profileicon/666.png">
+						</div>
+						<div class="col-xs-9">
+							Amigo 2
+							<a href="./perfil.html" class="float-xs-right">Perfil</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
